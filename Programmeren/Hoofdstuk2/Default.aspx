@@ -8,9 +8,9 @@
 </head>
 <body>
     <form id="form1" runat="server">
-    <div>
-    
-        Mijn eerste ASP.NET pagina</div>
+        <div>
+            Mijn eerste ASP.NET pagina
+        </div>
         <asp:Button ID="btnPostback" runat="server" Text="Druk op mij" />
         <asp:Calendar ID="calKalender" runat="server" VisibleDate="2017-01-13"></asp:Calendar>
         <p>
