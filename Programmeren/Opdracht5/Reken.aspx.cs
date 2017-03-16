@@ -9,7 +9,7 @@ public partial class Reken : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
     {
-        this.UnobtrusiveValidationMode = System.Web.UI.UnobtrusiveValidationMode.None;
+        //this.UnobtrusiveValidationMode = System.Web.UI.UnobtrusiveValidationMode.None;
 
     }
 
