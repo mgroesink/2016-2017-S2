@@ -11,4 +11,23 @@ public partial class Oefening8 : System.Web.UI.Page
     {
 
     }
+
+    protected void btnBegroeting_Click(object sender, EventArgs e)
+    {
+        int uur = DateTime.Now.Hour;
+        string groet = "";
+        if(uur >= 8 && uur <= 11)
+        {
+            groet = "Goedemorgen <b>" + txtNaam.Text + "</b>, hoe gaat het?";
+        }
+        else if (uur >= 12 && uur < 18)
+        {
+            groet = "Goedemiddag <b>" + txtNaam.Text + "</b>, hoe gaat het?";
+        }
+        else
+        {
+            groet = "Goedenavond <b>" + txtNaam.Text + "</b>, hoe gaat het?";
+        }
+        litGroet.Text = groet;
+    }
 }
