@@ -4,9 +4,9 @@
 
 <html>
 <head runat="server">
-    <link href="PaginaLayout.css" rel="stylesheet" />
-    <link href="Content/bootstrap.min.css" rel="stylesheet" />
 
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="PaginaLayout.css" rel="stylesheet" />
 
     <title></title>
     <asp:ContentPlaceHolder ID="head" runat="server">
@@ -16,12 +16,12 @@
     <form runat="server">
         <div class="navbar navbar-inverse navbar-fixed-top">
             <div class="container">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">Films en nog eens films</a>
+<%--                <a class="navbar-brand" href="#">Films en nog eens films</a>--%>
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
                         <li class="active"><a href="Home.aspx">Home</a></li>
@@ -30,7 +30,7 @@
                         <li><a href="VoegToeFilm.aspx">Film toevoegen</a></li>
                     </ul>
                 </div>
-                <!--/.nav-collapse -->
+                <!--/.navbar-collapse -->
             </div>
         </div>
         <div class="container" style="padding-top:75px">
