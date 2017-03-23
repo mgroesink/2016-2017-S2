@@ -26,8 +26,8 @@
                     <ul class="nav navbar-nav">
                         <li class="active"><a href="Home.aspx">Home</a></li>
                         <li><a href="Main.aspx">Overzicht</a></li>
-                        <li><a href="PasAanFilm.aspx">Film aanpassen</a></li>
-                        <li><a href="VoegToeFilm.aspx">Film toevoegen</a></li>
+                        <li><a href="PasFilmAan.aspx">Film aanpassen</a></li>
+                        <li><a href="VoegFilmToe.aspx">Film toevoegen</a></li>
                     </ul>
                 </div>
                 <!--/.navbar-collapse -->
