@@ -27,3 +27,8 @@
     /*width:824px;*/
     height:100%;
 }
+
+.PagerButton {
+    margin-left:5px;
+    margin-right:5px;
+}
