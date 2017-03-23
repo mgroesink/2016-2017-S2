@@ -5,6 +5,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title></title>
+    <!--Hallo-->
     <style type="text/css">
         .auto-style1 {
             width: 100%;
@@ -19,6 +20,7 @@
             width: 150px;
         }
     </style>
+    <link href="Content/bootstrap.min.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
     <form id="form1" runat="server">
@@ -64,7 +66,7 @@
                     </td>
                     <td>
                         <asp:TextBox ID="txtTelefoon" runat="server"></asp:TextBox>
-                        <asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="server" ControlToValidate="txtTelefoon" ErrorMessage="Ongeldig telefoonnummer" ForeColor="Red" ValidationExpression="0\d{9}">*</asp:RegularExpressionValidator>
+                        <asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="server" ControlToValidate="txtTelefoon" ErrorMessage="Ongeldig telefoonnummer" ForeColor="Red" ValidationExpression="0\d{2} \d{7}">*</asp:RegularExpressionValidator>
                     </td>
                     <td>&nbsp;</td>
                 </tr>            </table>
