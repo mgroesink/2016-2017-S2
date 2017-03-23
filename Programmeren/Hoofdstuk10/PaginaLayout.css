@@ -1,27 +1,29 @@
 ﻿body {
+    height:100%;
+
 }
 
 #Kop {
     background:#FF6A00;
-    position:absolute;
-    top:0px;
-    left:0px;
-    width:1024px;
+    /*position:absolute;*/
+    /*top:0px;*/
+    /*left:0px;
+    width:1024px;*/
     height:150px;
 }
 #Menu {
     background:#FFD800;
-    position:absolute;
-    top:150px;
-    left:0px;
-    width:200px;
-    height:616px;
+    /*position:absolute;*/
+    /*top:150px;*/
+    /*left:0px;*/
+    /*width:200px;*/
+    height:100%;
 }
 #Inhoud {
     background:#FFE97F;
-    position:absolute;
-    top:150px;
-    left:200px;
-    width:824px;
-    height:616px;
+    /*position:absolute;*/
+    /*top:150px;*/
+    /*left:200px;*/
+    /*width:824px;*/
+    height:100%;
 }
