@@ -9,7 +9,7 @@
         <Fields>
             <asp:BoundField DataField="movie_id" HeaderText="movie_id" InsertVisible="False" ReadOnly="True" SortExpression="movie_id" />
             <asp:BoundField DataField="title" HeaderText="title" SortExpression="title" />
-            <asp:BoundField DataField="release_date" HeaderText="release_date" SortExpression="release_date" />
+            <asp:BoundField DataField="release_date" HeaderText="release_date" SortExpression="release_date" DataFormatString="{0:d}" />
             <asp:CommandField ShowEditButton="True" />
         </Fields>
         <FooterStyle BackColor="Tan" />

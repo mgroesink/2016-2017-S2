@@ -49,6 +49,11 @@
     margin: auto;
 }
 
+.gridview {
+    width: 100%; 
+    /*word-wrap:break-word;*/
+    table-layout: auto;
+}
 /*.navbar-nav li a {
 
  width:160px;

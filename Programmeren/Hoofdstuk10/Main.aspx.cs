@@ -16,6 +16,16 @@ public partial class Main : System.Web.UI.Page
 
     protected void GridView1_SelectedIndexChanged(object sender, EventArgs e)
     {
-        Session["movieid"] = int.Parse(GridView1.SelectedRow.Cells[1].Text);
+        if (GridView1.SelectedRow != null)
+        {
+            Session["movieid"] = (int)GridView1.SelectedValue;
+            DetailsView1.Visible = true;
+
+        }
+        else
+        {
+            DetailsView1.Visible = false;
+        }
+
     }
 }
